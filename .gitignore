@@ -1,0 +1,26 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+pkg/
+
+# Berkshelf
+.vagrant
+.chef
+.git
+Berksfile.lock
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+.idea/*
+.project
+.idea/
+tests.xml
